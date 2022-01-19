@@ -1,0 +1,87 @@
+body {
+    padding-top: 54px;
+}
+
+header {
+	width:100%;
+	padding-top:2em;
+	padding-bottom:1em;
+	position: absolute;
+}
+
+header ul{
+	text-align:center;
+}
+		
+header li{
+	display:inline-block;
+	margin-left: 3em;
+}
+
+header li a{
+	text-transform:uppercase;
+	text-weight:lighter;
+}
+
+section{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+section h2{
+    text-align: center;
+}
+
+section form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+
+#vazio{
+	position:absolute;
+	color:#fff;
+	text-align:center;
+	width:100%;
+}
+
+#foto_vazio{
+	position:absolute;
+	width:400px;
+	width:400px;
+}
+
+
+footer{
+	padding-top:1em;
+	padding-bottom:1em;
+}
+
+.sobre{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.contato{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.container-cadastro ol,ul{
+	list-style: none;
+}
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
+	
+
+	

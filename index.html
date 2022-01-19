@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>GERAÇÃO TI</title>
+
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	
+</head>
+<body>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+
+
+
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+			<ul>
+				<li>
+					<a href="#home">HOME</a>				
+				</li>
+				<li>
+					<a href="#sobre">JOGO</a>				
+				</li>
+				<li>
+					<a href="#cadastro">CADASTRE-SE</a>				
+				</li>
+				<li>
+					<a href="#contatos">CONTATO</a>				
+				</li>
+				<li>
+					<input type="email" class="nav-link form-control" name="email" id="form-email" placeholder="E-mail">
+				</li>
+				<li>
+					<input type="password" class="nav-link form-control" id="form-senha" placeholder="Senha">
+				</li>
+				<li>
+					<button type="submit" class="nav-link btn btn-primary ">Login</button>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<div class="row d-none d-lg-block"> <!-- em telas pequenas estas classes fazem esconder o elemento -->
+       <img src="capa.jpg" class="img-fluid">
+    </div>
+
+
+
+	<section id="sobre" class="row sobre">
+		<div class="col-lg-12">
+        	<h2>Bem Vindo a GESTÃO TI</h2>
+        	<br>
+    	</div>
+        <div class="col-lg-8">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet, nulla eu congue suscipit, mi lacus eleifend risus, id accumsan purus metus id libero. Donec ac metus felis. In quis scelerisque ex. Sed diam elit, vehicula commodo neque vel, consectetur convallis massa. Proin urna tortor, mattis a elementum sed, condimentum in ante. Vivamus a sapien eros. </p>
+            <p>Etiam convallis, elit sit amet cursus malesuada, urna nulla sodales nulla, vulputate fermentum nisi nisi vitae nisi. Fusce vitae augue imperdiet, consectetur leo id, elementum ex. Nulla bibendum metus sed justo fringilla placerat vitae id ligula. Vestibulum ullamcorper accumsan purus, eget laoreet risus tempus at. Etiam congue nibh ac ipsum placerat, sed mattis ex suscipit</p>
+            <p>O painel administrativo pode ser acessado <a href="#">AQUI</a>.</p>
+ 		</div>
+        <div class="col-lg-4">
+            <img src="sobre.jpg" class="img-fluid">
+        </div>
+    </section>
+
+    <section id="cadastro">
+
+    	<h2>Cadastre-se</h2>
+    	<ul class="col-lg-12">
+    		<form class="form-row">
+    		<li class="form-group col-md-6">
+    			<label for="cad-nome">Nome</label>
+                <input type="text" class="form-control" name="nome" id="cad-nome" placeholder="Nome Completo">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-nomeuser">Nome de Usuário</label>
+                      <input type="text" class="form-control" name="nomeusuario" id="cad-nomeuser" placeholder="Nome de usuário no jogo">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-email">E-mail</label>
+                      <input type="email" class="form-control" name="email" id="cad-email" placeholder="Email">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-senha">Senha</label>
+                      <input type="password" class="form-control" name="senha" id="cad-senha" placeholder="Password">
+    		</li>
+    		
+    		</form>
+    		<li style="text-align: center">
+    			 <button type="submit" class="btn btn-success">Cadastrar</button>
+    		</li>
+    	</ul>
+    </section>
+
+    <section id="contato">
+    	<h2>Contato</h2>
+    	<div class="col-lg-12">
+              <form>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="form-contato-nome">Nome</label>
+                      <input type="text" class="form-control" name="nome" id="form-contato-nome" placeholder="Nome Completo">
+                    </div>
+                    
+                    <div class="form-group col-md-6">
+                      <label for="form-contato-email">E-mail</label>
+                      <input type="email" class="form-control" name="email" id="form-contato-email" placeholder="Email">
+                    </div>
+
+                    <div class="form-group col-md-12">
+                      <label for="form-contato-msg">Mensagem</label>
+                      <textarea class="form-control" name="senha" id="cad-senha" placeholder="Sua Mensagem"></textarea>
+                    </div>
+                  </div>
+ 				<div style="text-align: center">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                  </div>
+                </form>
+
+    </section>
+
+
+	<footer class="bg-dark">
+		<nav>
+			<ul>
+				<li>
+					<p class="m-0 text-center text-white">Copyright © 2018-2019</p>
+				</li>
+			</ul>
+		</nav>
+	</footer>
+
+</body>
+</html>

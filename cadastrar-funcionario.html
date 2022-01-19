@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Cadastro de funcionário </title>
+	<link rel="stylesheet" href="css.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- navegacao -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Olá usuário!
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="jogar.html">Entrar</a>
+            </li>
+            <li>
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Cadastros
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="cadastrar-funcionario.html"> Cadastrar funcionário </a>
+                  <a class="dropdown-item" href="cadastrar-tarefa.html"> Cadastrar Tarefa </a>
+                </div>
+              </div>
+            </li>
+            <li>
+                <a href="#" class="btn btn-danger btn-md" role="button">Sair</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+	
+	
+	 <section id="cadastro">
+
+    	<h2>Cadastro de funcionários</h2>
+    	<ul class="col-lg-12">
+    		<form class="form-row">
+    		<li class="form-group col-md-6">
+    			<label for="cad-nome">Nome:</label>
+                <input type="text" class="form-control" name="nome" id="cad-nome" placeholder="Nome Completo">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-nomeuser">Data de Nascimento:</label>
+                      <input type="date" class="form-control" name="datadenascimento" id="cad-nasc" placeholder="Data de nascimento do funcionario">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-email">E-mail:</label>
+                      <input type="email" class="form-control" name="email" id="cad-email" placeholder="Email">
+    		</li>
+    		<li class="form-group col-md-6">
+    			<label for="cad-senha">Cargo:</label>
+                      <input type="text" class="form-control" name="cargo" id="cad-cargo" placeholder="cargo">
+    		</li>
+    		
+    		</form>
+    		<li style="text-align: center">
+    			 <button type="submit" class="btn btn-success">Cadastrar</button>
+    		</li>
+    	</ul>
+    </section>
+
+   
+	
+	
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+       
+        <div class="row">
+            <div class="col-sm-6 text-center text-white">
+              <a href="#">Termos de Compromisso</a>
+            </div>
+            <div class="col-sm-6 text-center text-white">
+                <a href="#">Política de Privacidade</a>
+            </div>
+          </div>
+        <p class="m-0 text-center text-white">Copyright &copy; 2018</p>
+    
+
+    </footer>
+
+    <script src="assets/js/jquery/jquery.min.js"></script>
+    <script src="assets/js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jogo/mapajogo.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+    <script src="assets/js/jogo/apiworkaround.js"></script>  
+  </body>
+</html>

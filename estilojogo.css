@@ -1,0 +1,14 @@
+#map{
+    width:50%;
+    height: 500px;
+    float:left;
+    margin: 2em;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline-block;
+}
